@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.title{
+  text-shadow: 7px 4px 5px rgba(0, 0, 255, 0.599);
+  color: #fff;
+  padding-bottom: 60px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+
+
+
+}
+
+.user-card {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 50px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+}
+
+.phraseData{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+  min-height: 120px;
+
+}
+
+
+
+
+button {
+  font-style: normal !important;
+  background: #63B6FA;
+  border: solid 2px #ffffff;
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+  /*color: rgba(15, 15, 15, 0.872);*/
+  margin: 10px;
+}
+
+.bx{
+  color: #fff;
+  text-decoration: none;
+}
+
+.author {
+  margin-top: 10px;
+}
+
+.button-change {
+  margin-top: 20px;
+}
