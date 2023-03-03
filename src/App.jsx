@@ -2,7 +2,9 @@
 import PhraseCard from "./components/phraseCard";
 import phrase from "./data/phrases.json";
 import AuthorComponent from "./components/AuthorComponent";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+
 
 function App() {
   const imagbackg = [
@@ -24,7 +26,10 @@ function App() {
     setIndexQuestion(Math.floor(Math.random() * indice))
     console.log(indexQuestion)
   };
-
+  
+  useEffect(() => {
+    console.log("Se ejecuto el efecto");
+  }, []);
   
   return (  
     <div className="App" style={{ backgroundImage: `url(${imagbackg[index]}`}}>
