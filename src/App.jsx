@@ -29,7 +29,7 @@ function App() {
   
   useEffect(() => {
     console.log("Se ejecuto el efecto");
-  }, []);
+  }, [setIndex, setIndexQuestion]);
   
   return (  
     <div className="App" style={{ backgroundImage: `url(${imagbackg[index]}`}}>
